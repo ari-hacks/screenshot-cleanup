@@ -88,7 +88,7 @@ def _path_inject(paths):
     sys.path[:0] = paths
 
 
-_path_inject(['/Users/ari/Workshop/automation'])
+_path_inject(['/Users/ari/Workshop/automation/screenshot-automation'])
 
 
 import re
@@ -141,7 +141,7 @@ def _run():
     exec(compile(source, script, "exec"), globals(), globals())
 
 
-DEFAULT_SCRIPT='/Users/ari/Workshop/automation/screenshot-to-folder.py'
+DEFAULT_SCRIPT='/Users/ari/Workshop/automation/screenshot-automation/screenshot-to-folder.py'
 SCRIPT_MAP={}
 try:
     _run()
