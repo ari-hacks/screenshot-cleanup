@@ -41,7 +41,7 @@
 	<key>PyOptions</key>
 	<dict>
 		<key>alias</key>
-		<true/>
+		<false/>
 		<key>argv_emulation</key>
 		<false/>
 		<key>emulate_shell_environment</key>
@@ -64,7 +64,6 @@
 	<key>PyRuntimeLocations</key>
 	<array>
 		<string>@executable_path/../Frameworks/Python.framework/Versions/3.8/Python</string>
-		<string>/Library/Frameworks/Python.framework/Versions/3.8/Python</string>
 	</array>
 	<key>PythonInfoDict</key>
 	<dict>
@@ -78,7 +77,7 @@
 		<key>py2app</key>
 		<dict>
 			<key>alias</key>
-			<true/>
+			<false/>
 			<key>template</key>
 			<string>app</string>
 			<key>version</key>
