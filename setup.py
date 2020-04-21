@@ -9,7 +9,10 @@ from setuptools import setup
 
 APP = ['screenshot-to-folder.py']
 DATA_FILES = []
-OPTIONS = {}
+OPTIONS = {
+    'argv_emulation': True,
+    'iconfile': 'broom-icon.icns'
+}
 
 setup(
     app=APP,
